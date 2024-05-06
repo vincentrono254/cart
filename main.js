@@ -52,6 +52,7 @@ function onLoadCartNumbers() {
 }
 // local storage
 function cartNumbers(product) {
+  console.log(products[1]);
   let productNumbers = localStorage.getItem("cartNumbers");
 
   productNumbers = parseInt(productNumbers);
